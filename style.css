@@ -1,0 +1,418 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    }
+#home{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+        ), url("images/photo-1584863231364-2edc166de576.avif"); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+}
+
+.nav{
+    position: fixed;
+    /* top: 0; */
+    width: 100%;
+    overflow: hidden;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 99;
+}
+
+.nav ul{
+    display: flex;
+    gap: 30px;
+}
+
+.nav ul li{
+    list-style: none;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+
+.nav ul li a:hover{
+    color:#e5e7eb;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.btn{
+    padding: 7px 15px;
+    border-radius: 50px;
+    background-color: black;
+    margin-right: 40px;
+}
+
+.btn:hover{
+    background-color: #e5e7eb;
+    color: black;
+
+}
+
+.btn  a:hover{
+    color: black;
+
+}
+
+.btn a {
+    text-decoration: none;
+    color: white; 
+}
+
+.content{
+width: 40%;
+margin: 0 auto;
+color: white;
+display: flex;
+flex-direction: column;
+gap: 8px;
+}
+
+.content h1{
+ font-size: 50px;
+ margin-top: 200px;
+}
+
+.content p{
+    font-size: 20px;
+   }
+
+   .content .btn{
+    width: 100px;
+    text-align: center;
+    background-color: #e5e7eb;
+   }
+
+   .content .btn a{
+    color: black;
+   }
+
+   #about{
+    padding: 20px;
+   }
+
+   .about-content{
+    width: 70%;
+    margin: 70px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 40px;
+   }
+
+   .about-content h1{
+    font-size: 40px;
+   }
+
+   .about-content p{
+    font-size: 18px;
+    text-align: center;
+   }
+
+   .about-content .btn{
+    width: 100px;
+    text-align: center;
+    background-color: #e5e7eb;
+    color: black;
+    font-size: bold;
+   }
+
+   .about-content .btn a{
+    color: black;
+    font-size: bold;
+   }
+
+   .about_{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+        ), url("images/gym-91849_1280.jpg"); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 80vh;
+    background-size: cover;
+}
+
+.about_content p{
+    display: flex;
+    width: 90%;
+    height: 80vh;
+    margin: 50px auto;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 35px;
+    font-style: bold;
+}
+
+#classes{
+    padding: 50px;
+    background-color: white;
+}
+
+#classes h1{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+
+.classes{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.items_one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.items_one h2{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.items_one p{
+    font-size: 18px;
+}
+
+#classes_two{
+    padding: 50px;
+    background-color: #e5e7eb;
+}
+
+.items_two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 100px;
+}
+
+.items_two h2{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.items_two p{
+    font-size: 18px;
+}
+
+
+#classes_three{
+    padding: 50px;
+    background-color: white;
+}
+
+.items_three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.items_three h2{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.items_three p{
+    font-size: 18px;
+}
+
+img{
+ width: 90%;
+}
+
+#testimonials{
+    background-color: #e5e7eb;
+    padding: 40px;
+}
+
+.testimonials{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.testimonials h1{
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 70px;
+}
+
+.testimonials .box img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.box{
+    background: white;
+    padding: 30px;
+    text-align: center;
+    height: 400px;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(10, 10, 10, 0.9);
+    transition: 0.3s;
+    border-radius: 5px;
+
+}
+
+.box:hover {
+    box-shadow: 0 4px 8px 0 rgba(8, 8, 8, 0.9);
+    transform: scale(1.1); 
+}
+
+.quote{
+    font-size: 40px;
+}
+
+.box h2{
+    padding-bottom: 30px;
+
+}
+
+.box p{
+    font-size: 17px;
+
+}
+
+#contact{
+    padding: 80px;
+}
+
+.contact{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contact h1, .pg{
+    text-align: center;
+}
+
+.contact h1{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.contact .pg{
+    margin-bottom: 20px;
+    font-size: 20px; 
+    padding-bottom: 20px; 
+}
+
+.pack{
+    border-radius: 5px;
+    background-color: #e5e7eb;
+    padding: 40px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+}
+
+input, textarea{
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    resize: vertical;
+}
+
+input[name="yourname"]{
+    width: 40%;
+}
+
+input[name="youremail"]{
+    width: 40%;
+    margin-left: 70px;
+}
+
+input[type=submit]{
+    background-color: black;
+    color: white;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 20%;
+}
+
+.button{
+    display: flex;
+    margin-left: 38px;
+}
+
+
+/* input, textarea{
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin: 6px 0 16px 0;
+    resize: vertical;
+}
+
+input[name="yourname"]{
+    width: 40%;
+    margin-right: 70px;
+}
+
+input[name="youremail"]{
+    width: 40%;
+}
+
+input[type=submit]{
+    background-color: black;
+    color: white;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 30%;
+}
+
+input[type=submit]:hover {
+    background-color: gold;
+} */
+
+.footer{
+    padding: 20px;
+    background-color: #e5e7eb;
+}
+
+.footer p{
+    text-align: center;
+}
